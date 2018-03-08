@@ -1,0 +1,100 @@
+/*========================
+
+CSS Config File
+
+  Author: Matthew LeFevre
+          github.com/matthewlefevre
+          github.com/BlueRim
+
+  Table of contents
+  - Imports
+  - Color Scheme
+  -Typography
+    - Type Size
+    - Type Flavor
+  - CSS Base Styel Overrides
+    
+
+========================*/
+
+/* Imports */
+  @import url('https://fonts.googleapis.com/css?family=Karla|Karma|Oxygen+Mono');
+
+
+
+:root {
+  /*------------------------
+  Color Scheme
+  -------------------------*/
+  --dark:  #292C44; 
+	--light: #F0F0F1; 
+	--blue:  #4F80E1; 
+	--aqua:  #18CDCA; 
+	--red:   #FF5349; 
+
+
+  /*------------------------
+  Typography
+  -------------------------*/
+
+
+  /* Type Size */
+  --x3lrg:   60px;
+  --x2lrg:   50px;
+  --xlrg:    40px;
+  --lrg:     35px;
+  --mod:     30px;
+  --mdm:     25px;
+  --mid:     20px;
+  --main:    18px;
+  --sml:     15px;
+  --tiny:    12px;
+
+  /* Type Flavor */
+  --serif: 'Karma', serif;
+  --sans-serif: 'Karla', sans-serif;
+  --mono:   'Oxygen Mono', monospace;
+}
+
+/*------------------------
+CSS Base Style Overrides
+-------------------------*/
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+body {margin: 0;}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--serif);
+  color: var(--red);
+}
+
+p,
+li,
+a,
+input,
+button,
+textarea {
+  font-family: var(--sans-serif);
+  color: var(--dark);
+  font-size: var(--main);
+}
+
+code {
+  font-family: var(--mono);
+}
+
+
+
+
+
+
